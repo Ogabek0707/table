@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <table border="1" width="250px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr >
+                <td>Gander</td>
+                <td>
+                    <div>
+                    <input type="radio" name="radio">
+                    <label for="radio">Male</label>
+                    </div>
+                   <div>
+                    <input type="radio" name="radio">
+                    <label for="radio">Female</label>
+                   </div>
+                    
+                </td>
+            </tr>
+            <tr></tr>
+              <tr >
+                <td>Ey color</td>
+              <td>
+               <label for="color">
+                <select>
+                    <option value="1">green</option>
+                    <option value="2">red</option>
+                    <option value="3">yellow</option>
+                    <option value="4">black</option>
+                    <option value="5">crimson</option>
+                </select>
+               </label>
+            </td>
+              </tr>
+              <tr>
+                <td>Check all that apply</td>
+                <td>
+                    <div>
+                        <input type="checkbox" name="typ">
+                    <label for="typ">Over 6 feet tall</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="typ">
+                    <label for="typ">Over 200 pounds</label>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="border: none;" colspan="2">
+                    <label for="text">Describe your athletic ability:</label>
+                    <textarea name="text" id="text" cols="30" rows="5"></textarea>
+                    <button>Enter my information</button>
+                </td>
+              </tr>
+        </tbody>
+    </table>
+</body>
+</html>
